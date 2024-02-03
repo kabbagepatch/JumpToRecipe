@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Jump To Recipe",
+  "content_scripts":[
+    {
+     "matches":["https://*/*"],
+     "js":["main.js"]
+    }
+  ]
+}
